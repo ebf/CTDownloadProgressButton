@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77CE72015B006D600897871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CE71F15B006D600897871 /* UIKit.framework */; };
+		A77CE72215B006D600897871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CE72115B006D600897871 /* Foundation.framework */; };
+		A77CE72415B006D600897871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CE72315B006D600897871 /* CoreGraphics.framework */; };
+		A77CE72A15B006D600897871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77CE72815B006D600897871 /* InfoPlist.strings */; };
+		A77CE72C15B006D600897871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CE72B15B006D600897871 /* main.m */; };
+		A77CE73015B006D600897871 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CE72F15B006D600897871 /* CTAppDelegate.m */; };
+		A77CE73D15B0078F00897871 /* CTDownloadProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CE73C15B0078F00897871 /* CTDownloadProgressButton.m */; };
+		A77CE74015B007F000897871 /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CE73F15B007F000897871 /* CTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A77CE71B15B006D600897871 /* CTDownloadProgressButtonSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTDownloadProgressButtonSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77CE71F15B006D600897871 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A77CE72115B006D600897871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A77CE72315B006D600897871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A77CE72715B006D600897871 /* CTDownloadProgressButtonSampleProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTDownloadProgressButtonSampleProject-Info.plist"; sourceTree = "<group>"; };
+		A77CE72915B006D600897871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A77CE72B15B006D600897871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A77CE72D15B006D600897871 /* CTDownloadProgressButtonSampleProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTDownloadProgressButtonSampleProject-Prefix.pch"; sourceTree = "<group>"; };
+		A77CE72E15B006D600897871 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		A77CE72F15B006D600897871 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		A77CE73B15B0078F00897871 /* CTDownloadProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDownloadProgressButton.h; sourceTree = "<group>"; };
+		A77CE73C15B0078F00897871 /* CTDownloadProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDownloadProgressButton.m; sourceTree = "<group>"; };
+		A77CE73E15B007F000897871 /* CTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
+		A77CE73F15B007F000897871 /* CTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77CE71815B006D600897871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77CE72015B006D600897871 /* UIKit.framework in Frameworks */,
+				A77CE72215B006D600897871 /* Foundation.framework in Frameworks */,
+				A77CE72415B006D600897871 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77CE71015B006D600897871 = {
+			isa = PBXGroup;
+			children = (
+				A77CE73A15B0078F00897871 /* CTDownloadProgressButton */,
+				A77CE72515B006D600897871 /* CTDownloadProgressButtonSampleProject */,
+				A77CE71E15B006D600897871 /* Frameworks */,
+				A77CE71C15B006D600897871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77CE71C15B006D600897871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77CE71B15B006D600897871 /* CTDownloadProgressButtonSampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77CE71E15B006D600897871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77CE71F15B006D600897871 /* UIKit.framework */,
+				A77CE72115B006D600897871 /* Foundation.framework */,
+				A77CE72315B006D600897871 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77CE72515B006D600897871 /* CTDownloadProgressButtonSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				A77CE72E15B006D600897871 /* CTAppDelegate.h */,
+				A77CE72F15B006D600897871 /* CTAppDelegate.m */,
+				A77CE72615B006D600897871 /* Supporting Files */,
+				A77CE73E15B007F000897871 /* CTViewController.h */,
+				A77CE73F15B007F000897871 /* CTViewController.m */,
+			);
+			path = CTDownloadProgressButtonSampleProject;
+			sourceTree = "<group>";
+		};
+		A77CE72615B006D600897871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77CE72715B006D600897871 /* CTDownloadProgressButtonSampleProject-Info.plist */,
+				A77CE72815B006D600897871 /* InfoPlist.strings */,
+				A77CE72B15B006D600897871 /* main.m */,
+				A77CE72D15B006D600897871 /* CTDownloadProgressButtonSampleProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A77CE73A15B0078F00897871 /* CTDownloadProgressButton */ = {
+			isa = PBXGroup;
+			children = (
+				A77CE73B15B0078F00897871 /* CTDownloadProgressButton.h */,
+				A77CE73C15B0078F00897871 /* CTDownloadProgressButton.m */,
+			);
+			name = CTDownloadProgressButton;
+			path = ../CTDownloadProgressButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77CE71A15B006D600897871 /* CTDownloadProgressButtonSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77CE73315B006D600897871 /* Build configuration list for PBXNativeTarget "CTDownloadProgressButtonSampleProject" */;
+			buildPhases = (
+				A77CE71715B006D600897871 /* Sources */,
+				A77CE71815B006D600897871 /* Frameworks */,
+				A77CE71915B006D600897871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTDownloadProgressButtonSampleProject;
+			productName = CTDownloadProgressButtonSampleProject;
+			productReference = A77CE71B15B006D600897871 /* CTDownloadProgressButtonSampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77CE71215B006D600897871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CT;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = ebf;
+			};
+			buildConfigurationList = A77CE71515B006D600897871 /* Build configuration list for PBXProject "CTDownloadProgressButtonSampleProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A77CE71015B006D600897871;
+			productRefGroup = A77CE71C15B006D600897871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77CE71A15B006D600897871 /* CTDownloadProgressButtonSampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77CE71915B006D600897871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77CE72A15B006D600897871 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77CE71715B006D600897871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77CE72C15B006D600897871 /* main.m in Sources */,
+				A77CE73015B006D600897871 /* CTAppDelegate.m in Sources */,
+				A77CE73D15B0078F00897871 /* CTDownloadProgressButton.m in Sources */,
+				A77CE74015B007F000897871 /* CTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A77CE72815B006D600897871 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77CE72915B006D600897871 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77CE73115B006D600897871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A77CE73215B006D600897871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77CE73415B006D600897871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTDownloadProgressButtonSampleProject/CTDownloadProgressButtonSampleProject-Prefix.pch";
+				INFOPLIST_FILE = "CTDownloadProgressButtonSampleProject/CTDownloadProgressButtonSampleProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A77CE73515B006D600897871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTDownloadProgressButtonSampleProject/CTDownloadProgressButtonSampleProject-Prefix.pch";
+				INFOPLIST_FILE = "CTDownloadProgressButtonSampleProject/CTDownloadProgressButtonSampleProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77CE71515B006D600897871 /* Build configuration list for PBXProject "CTDownloadProgressButtonSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77CE73115B006D600897871 /* Debug */,
+				A77CE73215B006D600897871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77CE73315B006D600897871 /* Build configuration list for PBXNativeTarget "CTDownloadProgressButtonSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77CE73415B006D600897871 /* Debug */,
+				A77CE73515B006D600897871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77CE71215B006D600897871 /* Project object */;
+}
